@@ -1,0 +1,23 @@
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  cursor: progress;
+}
+
+.minify-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 20px;
+  margin: 20px;
+}
+
+textarea {
+  width: 100%;
+  outline: none;
+  min-height: 300px;
+}
+
+textarea:foucs {
+  outline: none;
+}
